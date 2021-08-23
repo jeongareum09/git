@@ -21,3 +21,8 @@
 ---
 포트폴리오 (http://kj980928.dothome.co.kr/portfolio)
 * [x] 해당정보를 공용개발하시겠습니까?
+---
+# project
+* [x] HTML&CSS
+[x] Javascript
+[ ] Jquery
