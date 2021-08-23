@@ -24,5 +24,5 @@
 ---
 # project
 * [x] HTML&CSS
-[x] Javascript
-[ ] Jquery
+- [x] Javascript
+- [ ] Jquery
