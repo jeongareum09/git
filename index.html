@@ -18,7 +18,7 @@
 </head>
 <body>
     <section>
-        <form id ="form">
+        <form id ="form" @submit ="gopage">
             <input type="text" class="inputs">
             <input type="password" class="inputs">
             <input type="submit" class="btn" value="로그인">
@@ -29,7 +29,11 @@
     let a =new Vue({
       el:"#form",
       data:{},
-      methods:{},
+      methods:{
+       gopage:function(){
+        location.href="http://kj980928.dothome.co.kr";
+       }
+      },
         
        
     })
