@@ -6,8 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <style>
+        .inputs{
+            width: 100px; height: 30px; box-sizing: border-box;
+        }
+        .btn{
+            width: 80px; height: 30px; border-radius: 5px; background-color: black;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
-    test
+    <section>
+        <form>
+            <input type="text" class="inputs">
+            <input type="password" class="inputs">
+            <input type="submit" class="btn">
+        </form>
+    </section>
 </body>
+<script src="./js/index.js"></script>
 </html>
